@@ -4,6 +4,100 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lucas Fraporti</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;0,900;1,300;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- DevIcon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body></body>
+
+  <body>
+    <main id="container">
+      <aside id="bio-container">
+        <h2>Lucas Fraporti</h2>
+        <img id="bio-image" src="img/profile.png" alt="Lucas Fraporti" />
+        <p>
+          Olá, meu nome é <b>Lucas Fraporti</b> e sou
+          <span class="highlight"><b>Desenvolvedor Web</b></span>
+        </p>
+        <p id="welcome-text">Contate-me através das redes sociais</p>
+        <ul id="social-container">
+          <li>
+            <a href="#" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+          </li>
+          <li>
+            <a href="#" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+          </li>
+          <li>
+            <a href="#" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+          </li>
+        </ul>
+        <div id="email-container">
+          <ion-icon name="mail-outline"></ion-icon
+          ><a href="mailto:lucasmfraporti@gmail.com">lucasmfraporti@gmail.com</a>
+        </div>
+      </aside>
+      <section id="about-container">
+        <h1 id="name">Lucas Fraporti</h1>
+        <p id="title"><span class="highlight">Desenvolvedor Web</span></p>
+        <p class="description">
+          Sou um <span class="highlight"><b>Desenvolvedor Web</b></span
+          >, formado em Análise e Desenvolvimento de Sistemas pelo SENAC, no final do ano de 2022, e que está no início
+          da carreira e <span class="highlight"><b>procurando oportunidades de aprendizado</b></span
+          >. Na área de programação trabalhei somente com pequenos projetos pessoais.
+        </p>
+        <p class="description">
+          Estou explorando todas as modalidades da programação, tanto
+          <span class="highlight"><b>Front-end</b></span> como <span class="highlight"><b>Back-end</b></span
+          >. Estou estudando e me certificando para que meu conhecimento se torne mais amplo a cada dia.
+        </p>
+        <a href="#" id="btn-projects"> <ion-icon name="share-social-outline"></ion-icon> <span>Ver projetos</span> </a>
+        <h2 id="skills-section-title">Minhas Skills</h2>
+        <p class="description">Conheça as tecnologias que tenho domínio</p>
+        <div id="skills-container">
+          <div class="skills-box">
+            <p class="skills-title">Front-end</p>
+            <i class="devicon-html5-plain colored"></i>
+            <i class="devicon-css3-plain colored"></i>
+            <i class="devicon-javascript-plain colored"></i>
+          </div>
+          <div class="skills-box">
+            <p class="skills-title">Back-end</p>
+            <i class="devicon-nodejs-plain colored"></i>
+            <i class="devicon-python-plain colored"></i>
+          </div>
+          <div class="skills-box">
+            <p class="skills-title">Databases</p>
+            <i class="devicon-mysql-plain colored"></i>
+            <i class="devicon-postgresql-plain colored"></i>
+            <i class="devicon-mongodb-plain colored"></i>
+          </div>
+          <div class="skills-box">
+            <p class="skills-title">Front-end Frameworks</p>
+            <i class="devicon-react-plain colored"></i>
+          </div>
+          <div class="skills-box">
+            <p class="skills-title">Back-end Frameworks</p>
+            <i class="devicon-discordjs-plain colored"></i>
+          </div>
+          <div class="skills-box">
+            <p class="skills-title">Tools</p>
+            <i class="devicon-git-plain colored"></i>
+            <i class="devicon-github-original colored"></i>
+            <i class="devicon-figma-plain colored"></i>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- IonIcons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>
 </html>
